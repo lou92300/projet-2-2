@@ -1,0 +1,106 @@
+@media screen and (max-width: 767px) {
+    /************************* Header *************************
+    ***********************************************************/
+
+    body{
+        width: 100%;
+    }
+    .navigation{
+        flex-direction: column;
+    }
+    .navigation img{
+        margin: auto;
+        height: 81Px;
+        width: 100px;
+        padding-left: 57px;
+    }
+    .navigation nav ul li a:hover {
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+        color: #0065FC;
+        padding: 15px;
+    }
+    h1 {
+        font-size: 26px
+    }
+    .legende{
+        color: #6b6871;
+        font-size: 20px;
+    }
+    header{
+        display: block;
+    }
+    .search{
+        display: none;
+    }
+    .fas.fa-search{
+        display: block;
+        visibility: visible;
+    }
+    .filtre{
+        display: block;
+    }
+    .elementfiltre{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /****************************** Hebergement ********************
+    ****************************************************************/
+
+    .contenaire{
+        margin-right: 20px;
+        background-color: white;
+    }
+    .container{
+        background-color: white;
+    }
+    .container-populaire {
+        border-radius: 0px;
+        margin-right: -8px;
+        
+    }
+    
+    .marseille{
+        flex-direction: column-reverse;
+        
+
+    }    
+    .hebergement-list{
+        display: flex;
+        flex-direction: column;
+        margin-right: 315px;
+    }
+    .hebergement-list-populaire{
+        padding: 12px;
+    }
+    .hebergement-image{
+        width: 385px;
+    }
+
+    /************************* Activité ************************
+    ************************************************************/
+
+    .contenair-activites{
+        display: block;
+    }
+    .activite-image{
+        width: 385px;
+        height: 150px;
+    }
+    .activite-image-double{
+        width: 385px;
+        height: 150px;
+    }
+    .activite-list{
+        margin-right: -14Px;
+        padding-bottom: 6px;
+    }
+
+    /************************** Footer ************************
+    ***********************************************************/
+    
+    .footer{
+    flex-direction: column;
+    }
+}
